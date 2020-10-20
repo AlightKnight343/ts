@@ -11,7 +11,7 @@ main{
 
 .landing{
     min-height: 100vh;
-    background: url('images/hero.jpg');
+    background: url('images/iphone.jpg');
     background-size: cover;
     padding: 0rem 5rem;
 }
@@ -31,7 +31,7 @@ nav{
 .nav-links li{
     padding-left: 10rem;
     font-size: 1.5rem;
-    color: white;
+    color: rgb(78, 72, 72);
 
 }
 
@@ -94,4 +94,11 @@ nav{
 
 .text{
     padding-bottom: 30px;
+}
+
+
+.feature-heading{
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-weight: 700;
 }
