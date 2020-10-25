@@ -1,8 +1,18 @@
-const tl = gsap.timeline({defaults :{ease: 'power1.out'}});
+var s = skrollr.init();
+AOS.init();
+gsap.registerPlugin(TextPlugin);
 
 
-tl.to('.text', {y: '0%', duration: 1, stagger : 0.25})
-tl.to('.slider', {y : '-100%', duration : 1.5, delay : 1.5})
-tl.to('.intro', {y : '-100%', duration : 1}, '-=1')
-tl.fromTo('nav',{opacity:0}, {opacity:1, duration : 1})
-tl.fromTo('.tagline',{opacity:0}, {opacity:1, duration : 1}, '-=1')
+
+let tl = gsap.timeline({
+    defaults :{ease: 'power1.out'},
+});
+
+
+tl.fromTo('nav',{opacity:0}, {opacity:1, duration : 2})
+tl.fromTo('.tagline',{opacity:0}, {opacity:1, duration : 2}, '-=2')
+
+gsap.to('.tagline', {duration: 10, text:{
+value : 'MyPhone12',
+newClass : 'heading-class-2'
+} , ease: "power2", delay : 2});

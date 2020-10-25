@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-main{
-    font-family: "Montserrat";
-    font-weight: 400;
-}
-
 .landing{
     min-height: 100vh;
     background: url('images/iphone.jpg');
@@ -16,25 +11,12 @@ main{
     padding: 0rem 5rem;
 }
 
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 10vh;
-    padding-top: 20px;
+
+
+.fa-apple{
+    font-size: 2rem;
 }
 
-.nav-links{
-    display: flex;
-    list-style: none;
-}
-
-.nav-links li{
-    padding-left: 10rem;
-    font-size: 1.5rem;
-    color: rgb(97, 88, 88);
-
-}
 
 #heading{
     font-size: 2rem;
@@ -52,54 +34,83 @@ nav{
     color: black;
 }
 
-.intro{
-    background-color: black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.intro-text{
-    color: white;
-    font-size: 3rem;
-    font-family: Pacifico;
-}
-
-.slider{
-    background-color: rgba(117, 122, 146, 0.678);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transform: translateY(100%);
-}
-
-.hide{
-    background: black;
-    overflow: hidden;
-}
-
-.hide span{
-    display: inline-block;
-    transform: translateY(100%);
-}
-
-.text{
-    padding-bottom: 30px;
-}
 
 
 .feature-heading{
     font-size: 3rem;
     font-family: 'Montserrat';
-    font-weight: 700;
+    font-weight: 400;
+    padding: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 10vh;
+    left: 50vw;
 }
+
+.feature-content{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding: 50px;
+    z-index: 1;
+    position: absolute;
+    top: 30vh;
+    left: 51vw;
+}
+
+.feature-div{
+    position: relative;
+    background-color: rgb(97, 97, 97);
+    height: 80vh;
+    text-align: right;
+}
+
+.smash-gif{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+}
+
+.hero{
+    text-align: left;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    position: relative;
+    height: 100vh ;
+}
+.hero-img{
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    object-fit: cover;
+}
+
+.content{
+    padding: 9rem 5rem;
+    z-index: 1;
+    position: relative;
+    width: 700px;
+}
+
+.hero-heading{
+    font-size: 3rem;
+    padding-bottom: 0;
+
+}
+
+.hero-content{
+    font-size: 1.2rem;
+    padding-top: 0;
+}
+
+
+.heading-class-2{
+    color: black;
+}
+
+
