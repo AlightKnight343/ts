@@ -150,6 +150,7 @@
     font-weight: 400;
     padding: 50px;
     padding-bottom: 20px;
+    width: 800px;
 }
 
 .item-div{
@@ -330,5 +331,63 @@ background-color: black;
 .readmore{
     text-align: center;
 }
+.btn{
+    margin-bottom: 50px;
+}
+
+.products{
+    background-color: #ee6f57;
+    text-align: center;
+}
+
+.products h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 50px 30px;
+    color: #420000;  
+}
+
+.footer{
+    background-color: #ffbbae;
+    padding : 3%;
+    text-align: center;
+}
+.footer-icon{
+    padding : 0 20px;
+    font-size: 2rem;
+}
+.fa-twitter{
+    color: rgb(118, 205, 255);
+}
+.fa-twitter:hover{
+    color: rgb(0, 110, 255);
+}
+.fa-facebook{
+    color:rgb(85, 85, 255) ;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-youtube{
+    color:rgb(255, 75, 75) ;
+}
+.fa-youtube:hover{
+    color: red;
+}
+.fa-instagram{
+    color: rgb(255, 0, 255);
+}
+.fa-instagram:hover{
+    color: rgb(114, 0, 114);
+}
+.fa-envelope{
+    color: rgb(92, 92, 92);
+}
+.fa-envelope:hover{
+    color: rgb(36, 36, 36);
+}
 
 
+  
+ 
