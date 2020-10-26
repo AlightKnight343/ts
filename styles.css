@@ -15,6 +15,7 @@
 
 .fa-apple{
     font-size: 2rem;
+    color: rgb(71, 71, 71);
 }
 
 
@@ -58,9 +59,17 @@
     left: 51vw;
 }
 
+.disclaimer{
+    font-size: 0.6rem;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    padding: 50px;
+    z-index: 1;
+}
+
 .feature-div{
     position: relative;
-    background-color: rgb(97, 97, 97);
+    background-color: rgb(238, 92, 92);
     height: 80vh;
     text-align: right;
 }
@@ -111,6 +120,195 @@
 
 .heading-class-2{
     color: black;
+}
+
+.charge-div{
+    position: relative;
+    background-color: rgb(100, 95, 122);
+    height: 80vh;
+    text-align: left;
+    color: rgb(204, 255, 207);
+}
+.charge-gif{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    height: 100%;
+}
+
+.charge-heading{
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding: 50px;
+}
+
+.charge-content{
+    font-size: 1.2rem;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.item-div{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: black;
+}
+.card{
+    position: relative;
+    width: 320px;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: rgb(43, 43, 43);
+}
+
+.card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background : rgb(81, 255, 0);
+    clip-path: circle(150px at 80% 20%);
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover:before{
+    clip-path: circle(300px at 80% -20%);
+}
+
+.card:after{
+    content: 'MyPhone';
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    font-size: 6rem;
+    font-weight: 700;
+    color: rgb(61, 61, 61);
+    font-style: italic;
+}
+
+
+
+
+.card .price-img{
+    width: 160px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 0.5;
+    width: 100%;
+    height: 270px;
+    transition: 0.5s;
+    transform: translate(-50%,-50%) rotate(-25deg);
+}
+
+.card:hover .price-img{
+    top: 0%;
+    transform: translateY(0%);
+}
+
+.card .card-content{
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    text-align: center;
+    transition: 1s;
+    z-index: 1;
+    color: white;
+   
+}
+.card:hover .card-content{
+    height: 190px;
+}
+.card-content h2{
+    font-family: 'Pacifico';
+    letter-spacing: 1px;
+}
+
+.storage, .colour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 8px 20px;
+    transition: 0.5s;
+}
+
+.storage h3, .colour h3{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.storage span{
+    width: 26px;
+    height: 26px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    display: inline-block;
+    color: black;
+    background-color: white;
+    margin: 0 5px;
+    transition: 0.5s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.storage span:hover{
+    border-radius: 50%;
+    background-color: rgb(94, 255, 0);
+}
+
+.colour span{
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    background-color: white;
+    margin: 0 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.colour span:nth-child(2){
+    background-color: black;
+}
+.colour span:nth-child(3){
+    background-color: #a6f6f1;
+}
+.colour span:nth-child(4){
+    background-color: #fcf876;
+}
+.colour span:nth-child(5){
+    background-color: #ee6f57;
+}
+
+.readmore{
+    background-color:black ;
+}
+
+
+.readmore h1{
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 50px 30px;
+    color: #a6f6f1;
+}
+.readmore{
+    text-align: center;
 }
 
 

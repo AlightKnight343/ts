@@ -16,3 +16,6 @@ gsap.to('.tagline', {duration: 10, text:{
 value : 'MyPhone12',
 newClass : 'heading-class-2'
 } , ease: "power2", delay : 2});
+
+
+
