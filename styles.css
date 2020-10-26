@@ -295,6 +295,26 @@ background-color: black;
     background-color: #ee6f57;
 }
 
+.colour{
+    padding-bottom: 10px;
+}
+
+.card-content a{
+    text-decoration: none;
+    color: lime;
+    border: 2px solid lime;
+    transition: 0.5s;
+    padding : 4px;
+}
+
+.card-content a:hover{
+    background-color: black;
+    border: 2px solid black;
+    color : lime;
+}
+
+
+
 .readmore{
     background-color:black ;
 }
